@@ -104,6 +104,8 @@ impl ActionMap {
             "f10" => Ok(Key::F10),
             "f11" => Ok(Key::F11),
             "f12" => Ok(Key::F12),
+             "f" => Ok(Key::F),
+             "l" => Ok(Key::L),
             _ => self.numpad_keys(keyname),
         }
     }
